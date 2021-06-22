@@ -1,0 +1,198 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+  --main-color: #212121;
+  --secondary-color: #757575;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--main-font);
+  font-weight: 500;
+  color: var(--main-color);
+}
+
+/* ====== HEADER ======= */
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.logo-text {
+  color: var(--main-color);
+}
+
+.menu-link {
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.menu-link.current {
+  color: var(--accent-color);
+}
+
+.contact-link {
+  font-size: 14px;
+  line-height: 1.15px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+/* ====== END HEADER ====== */
+
+/* ====== FOOTER ======*/
+
+.footer-text {
+  /* color: #ffffff; */
+}
+.adress-text {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  /* color: #ffffff; */
+}
+.footer-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
+/* ====== END FOOTER ======*/
+
+/* ==================== STUDIO PAGE =====================*/
+
+/* ====== HERO ======*/
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: #ffffff; */
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  border: none;
+  cursor: pointer;
+}
+/* ====== END HERO ======*/
+
+/* ====== FEATURES ======*/
+
+.features-title {
+  display: none;
+}
+.features-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+/* ====== END FEATURES ======*/
+
+/* ====== SERVICES ======*/
+
+.services-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-subtitle {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+/* ====== END SERVICES ======*/
+
+/* ==================== END OF STUDIO PAGE =====================*/
+
+/* ==================== PORTFOLIO PAGE =====================*/
+
+.portfolio-title {
+  display: none;
+}
+
+.filters-button {
+  font-size: 16px;
+  line-height: 1.85;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.filters-button:hover,
+.filters-button:focus {
+  background-color: var(--accent-color);
+}
+.portfolio-link:visited {
+  color: var(--main-color);
+}
+.portfolio-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+/* ==================== END OF PORTFOLIO PAGE =====================*/
